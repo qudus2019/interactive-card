@@ -18,6 +18,7 @@
 </head>
 <body>
   <main class="container">
+    <h1></h1>
 <div class="cards">
 
   <div class="first-card">
@@ -43,20 +44,20 @@
   <form action="#" class="theform" name="form">
     <label for="name" class="forname">
       <p class="title">cardholder name</p>
-      <input type="text" id="name" class='long' placeholder="eg. Jane Appleseed" name="name">
+      <input type="text" id="name" class='long' placeholder="eg. Jane Appleseed" name="cardname">
       <p class="message">Wrong format, numbers not allowed.</p>
     </label>
 
-    <label for="cardnumber" class="fornumber">
+    <label for="card-number" class="fornumber">
       <p class="title">card number</p>
-      <input type="text" id="card-number" class='long' placeholder="eg. 1234 5678 9123" name="number">
+      <input type="text" id="card-number" class='long' placeholder="eg. 1234 5678 9123" name="cardno">
       <p class="message">Wrong format, only numbers allowed.</p>
     </label>
     <div class="wrap">
     <label for="exp" class="exp">
       <p class="title">EXP. Date (MM/YY)</p>
       
-      <input type="text" class="mm" placeholder="MM" name="mm">
+      <input type="text" class="mm" placeholder="MM" id="exp" name="mm">
       <input type="text" class="yy" placeholder="YY" name="yy">
       <p class="message">Can't be blank.</p>
 
@@ -64,7 +65,7 @@
     
     <label for="cvc" class="cvc">
       <p class="title">CVC</p>
-      <input type="text" class="cvv" name="cvc" placeholder="e.g 123">
+      <input type="text" class="cvv" name="cvc" id='cvc' placeholder="e.g 123">
       <p class="message">Can't be blank</p>
     </label></div>
 
